@@ -1,11 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Portfolio - Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>  
 <body>
-    <p>Hello</p>
+    <header>
+        <a href="#" class="logo">Port<span>Folio.</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar"> 
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    <section class="home" id="home">
+        <div class="social">
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+        </div>
+        <div class="home-img">
+            <img class="hero user-image" src="user.png" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Shivang Baranwal</h1>
+            <h2>I am a <span class="role"></span> </h2>
+            <p>I'm a software developer and here is my portfolio website. Here you'll learn about my journey as a software developer.</p>
+            <a href="#" class="btn">Download CV</a>
+            <div class="btn-pink" id="btn">Hire me</div>
+            <div class="absolute faded-text">Shivang Baranwal</div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction </span>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img class="hero" src="user.png" alt="">
+            </div>
+            <div class="about-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque consequatur, ab numquam repudiandae officiis impedit exercitationem delectus hic eum, iusto voluptatibus minus. Aut, laboriosam.</p>
+                <div class="information">
+                    <div class="info-box">
+                        <i class="bx bxs-user"></i>
+                        <span>Shivang Baranwal</span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxs-phone-call'></i>
+                        <span>+1234567894</span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxl-gmail' ></i>
+                        <span>shivangbaranwal4@gmail.com</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+        <div class="skills-container">
+            <div class="bars">
+                <div class="bars-box">
+                    <h3>HTML</h3>
+                    <span>95%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>CSS</h3>
+                    <span>85%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Javascript</h3>
+                    <span>75%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>React</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img class="hero" src="user.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <span>Our Services</span>
+        </div>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class="bx bx-server"></i>
+                <h3>Backend Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-cog' ></i>
+                <h3>Software Engineer</h3>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-android' ></i>
+                <h3>App Development</h3>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Connect With Us</span>
+        </div>
+        <div class="contact-form">
+            <form action="#">
+                <input type="text" placeholder="Your Name">
+                <input type="Email" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here...."></textarea>
+                <input type="button" value="Send" class="contact-button"> 
+            </form>
+        </div>
+    </section>
+    <div class="footer">
+        <h2>Follow Us</h2>
+        <div class="footer-social">
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+        </div>
+    </div>
+    <div class="copyright">
+        &#169; PortFolio | All Right Reserved
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Software Developer",
+                "Full Stack Developer",
+                "Web Developer",
+                "Backend Developer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
 </body>
-</html>
+</html> 
