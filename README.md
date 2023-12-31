@@ -4,8 +4,8 @@ I have developed a responsive personal portfolio website showcasing my skills an
 
 ## Key Features:
 
-- **Pure CSS Magic:**
-  - Implemented pure CSS to create engaging features, such as transitions on my photo.
+- **CSS Magic:**
+  - Implemented CSS to create engaging features, such as transitions on my photo.
   - Included an interactive element where clicking on the moon image dynamically changes the background color.
 
 - **Navigation Bar:**
@@ -22,3 +22,5 @@ I have developed a responsive personal portfolio website showcasing my skills an
   - [MY Website Link](https://silly-centaur-d3d421.netlify.app/)
 
 Feel free to explore, and don't hesitate to reach out for collaboration or inquiries.
+
+<h1>Author- Shivang Baranwal</h1>
